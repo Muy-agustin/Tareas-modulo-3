@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Recetas chilenas</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/img/Icono_Menu_Principal-Picsart-180px.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/Icono_Menu_Principal-Picsart-32px.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/Icono_Menu_Principal-Picsart-16px.png">
+	<!-- Link de bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Link archivos css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<header class="bg-primary text-white py-4">
+		<div class="container d-flex justify-content-between align-items-center p-3">
+
+			<div class="row align-items-center">
+				<!-- Logo a la izquierda -->
+				<div class="col-6 col-md-4">
+					<a href="index.html" class="text-decoration-none fw-bold">
+						<img src="https://imagenpng.com/wp-content/uploads/2015/06/banderachile.png"
+							alt="Icono de bandera chilena" width="80" height="80" class="mb-2 img-fluid">
+					</a>
+				</div>
+
+				<!-- Título a la derecha -->
+				<div class="col-6 col-md-8">
+					<h1 class="mb-0">Buscador recetas chilenas</h1>
+					<p class="mb-0 small">Encuentra recetas más chilenas</p>
+				</div>
+			</div>
+
+		</div>
+	</header>
+
+	<main class="py-5">
+		<div class="container">
+
+			<!-- Interfaz de búsqueda -->
+			<form id="searchForm" class="row g-2 align-items-center my-4" role="search"
+				aria-label="Buscador de recetas">
+				<div class="col-12 col-md-9">
+					<input type="text" class="form-control" id="searchInput" placeholder="Busca por ingrediente...">
+				</div>
+				<div class="col-12 col-md-3 d-grid">
+					<button type="submit" class="btn btn-primary btn-lg">Buscar</button>
+				</div>
+			</form>
+
+			<!-- Galería de recetas -->
+			<section id="results" aria-live="polite">
+				<h2 class="h5 mb-3">Películas destacadas</h2>
+				<div class="row g-4">
+
+					<!-- Porotos con rienda -->
+					<div class="col-lg-4 col-md-6 recipe-card">
+						<div class="card h-100">
+							<img src="https://www.tipicochileno.cl/wp-content/uploads/2024/04/porotos-con-rienda-el-palacio-del-porotos.jpg"
+								class="card-img-top" alt="Imagen de porotos con rienda">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Porotos con rienda</h5>
+								<p class="card-text">El delicioso clasico de porotos con rienda, con porotos y fideos
+								</p>
+								<a href="#" class="btn btn-primary mt-auto">Pedir</a>
+							</div>
+						</div>
+					</div>
+					<!-- Choripan -->
+					<div class="col-lg-4 col-md-6 recipe-card">
+						<div class="card h-100">
+							<img src="https://www.diariodelacarne.cl/files/6144c00122be0_890x533.jpg"
+								class="card-img-top" alt="Imagen de dos Choripanes con pebre">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Choripan</h5>
+								<p class="card-text">Pan con chorizo asado, pebre y mayonesa.</p>
+								<a href="#" class="btn btn-primary mt-auto">Pedir</a>
+							</div>
+						</div>
+					</div>
+					<!-- Pastel de choclo -->
+					<div class="col-lg-4 col-md-6 recipe-card">
+						<div class="card h-100">
+							<img src="https://club.cruzverde.cl/wp-content/uploads/2021/05/post_22_imagen_01.jpg"
+								class="card-img-top" alt="Imagen de pastel de choclo">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Pastel de choclo</h5>
+								<p class="card-text">Clasico pastel de choclo con carne y choclo molido</p>
+								<a href="#" class="btn btn-primary mt-auto">disponible</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Curanto -->
+					<div class="col-lg-4 col-md-6 recipe-card">
+						<div class="card h-100">
+							<img src="https://laopinionaustral.com.ar/media/uploads/2023/09/curanto-chileno.webp"
+								class="card-img-top" alt="Imagen de Curanto">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">curanto-chileno</h5>
+								<p class="card-text">Clasico platillo chileno, con maricos variados</p>
+								<a href="#" class="btn btn-primary mt-auto">No disponible</a>
+							</div>
+						</div>
+					</div>
+					<!-- Cazuela -->
+					<div class="col-lg-4 col-md-6 recipe-card">
+						<div class="card h-100">
+							<img src="https://comedera.com/wp-content/uploads/sites/9/2022/11/cazuela-chilena.jpg?fit=1316,877&crop=0px,69px,1316px,740px"
+								class="card-img-top" alt="Imagen de Cazuela Chilena">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Cazuela</h5>
+								<p class="card-text">Clásico chileno, ideal para consumir cuando hace calor</p>
+								<a href="#" class="btn btn-primary mt-auto">Pedir</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Sopaipillas -->
+					<div class="col-lg-4 col-md-6 recipe-card">
+						<div class="card h-100">
+							<img src="https://tse1.mm.bing.net/th/id/OIP.8MMZ_ihfkOMjmpn0LEyw4gHaE8?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+								class="card-img-top" alt="Imagen de Sopaipillas">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Sopaipillas</h5>
+								<p class="card-text">Masa fritas y medianamente crujientes, ideal para comer con palta,
+									manjar, pebre, etc.</p>
+								<a href="#" class="btn btn-primary mt-auto">Pedir</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+		</div>
+	</main>
+
+	<footer class="bg-light py-4">
+		<div class="container text-center small">
+			<p class="mb-0"> © Agustín Gamarra</p>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="./assets/js/script.js"></script>
+</body>
+
+</html>
